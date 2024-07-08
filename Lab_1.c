@@ -4,9 +4,7 @@
 
 int main() {
 	
-	system ("chcp 65001");
-	
-	printf("Введите координаты x и y: \n");
+	printf("Enter: x and y: \n");
 	
 	float x = 0, y = 0, z = 0;
 	
@@ -16,11 +14,11 @@ int main() {
 	
 	if (y >= 2.0 / 3.0 * x - 2 && y <= -2.0 / 3.0 * x + 2 && y <= 2 && y >= -2 && x <= 1.5 && x >= -2)
 		
-		printf ("Точка принадлежит фигуре\n");
+		printf ("The point belongs to the figuer\n");
 		
 		else 
 	
-			printf ("Точка не принадлежит фигуре\n");
+			printf ("The point doesn't belong to the figuer\n");
 	
 	system ("PAUSE");
 	
