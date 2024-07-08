@@ -14,11 +14,11 @@ int main() {
 	
 	if (y >= 2.0 / 3.0 * x - 2 && y <= -2.0 / 3.0 * x + 2 && y <= 2 && y >= -2 && x <= 1.5 && x >= -2)
 		
-		printf ("The point belongs to the figuer\n");
+		printf ("The point belongs to the figure\n");
 		
 		else 
 	
-			printf ("The point doesn't belong to the figuer\n");
+			printf ("The point doesn't belong to the figure\n");
 	
 	system ("PAUSE");
 	
